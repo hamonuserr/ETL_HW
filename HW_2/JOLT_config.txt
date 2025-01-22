@@ -1,0 +1,18 @@
+[
+{
+"operation": "shift",
+"spec": {
+"pets": {
+"*": {
+"name": "[&1].name",
+"species": "[&1].species",
+"favFoods": {
+"": "[&1].favFoods[]"
+},
+"birthYear": "[&1].birthYear",
+"photo": "[&1].photo"
+}
+}
+}
+}
+]
